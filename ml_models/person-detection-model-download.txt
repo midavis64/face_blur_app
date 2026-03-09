@@ -1,0 +1,15 @@
+The general object detection model can be downloaded using the following instructions:
+
+Download the following files:
+- http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_2017_11_17.tar.gz
+- https://github.com/opencv/opencv_extra/raw/refs/heads/4.x/testdata/dnn/ssd_inception_v2_coco_2017_11_17.pbtxt
+
+Unzip the ssd_inception_v2_coco_2017_11_17.tar.gz
+- open the Command Prompt by searching for "cmd" in the Start menu 
+- use the cd command to navigate to the directory where the .tar.gz file is located 
+- use the following syntax to extract files: tar -zxvf ssd_inception_v2_coco_2017_11_17.tar.gz
+- extract the file: frozen_inference_graph.pb
+
+Use the .pb and .pbtxt files
+- frozen_inference_graph.pb
+- ssd_inception_v2_coco_2017_11_17.pbtxt
