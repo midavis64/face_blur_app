@@ -44,12 +44,19 @@ Blurred Result
 ## Project Structure
 
 face-blur-app
+
 │
+
 ├── face_blur_app.py
+
 ├── ml_models/
+
 ├── test_images/
+
 ├── output_images/
+
 ├── .gitignore
+
 └── README.md
 
 ---
